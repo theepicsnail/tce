@@ -9,13 +9,15 @@
   <h1>Hello world</h1>
   <button id="btn">Click me</button>
   <span id="output"></span>
+  <span id="random"></span>
 </div>
 */},
     events:{
       '#btn': {
         "click": function(element, event) {
 					const message = "Clicked at " + new Date();
-					this.getElementById('output').textContent = message 
+					this.getElementById('output').textContent = message;
+					this.getElementById('random').textContent = Math.random();
         }
       }
     }
