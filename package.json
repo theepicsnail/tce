@@ -1,0 +1,22 @@
+{
+  "name": "tce",
+  "version": "1.0.0",
+  "description": "Tiny Custom Elements",
+  "main": "tce.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theepicsnail/tce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theepicsnail/tce/issues"
+  },
+  "homepage": "https://github.com/theepicsnail/tce#readme"
+}
